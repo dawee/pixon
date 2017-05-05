@@ -1,0 +1,19 @@
+<html>
+
+  <head>
+    <title>Pixon</title>
+    <style>
+      body { margin: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      const path = require('path');
+      const app = require(path.resolve('.'));
+
+      document.getElementById('root').appendChild(app.view);
+    </script>
+  </body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "pixon",
+  "version": "1.0.0",
+  "description": "Run Pixi.js games offline",
+  "main": "index.js",
+  "bin": {
+    "pixon": "bin/pixon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "1.6.6"
+  },
+  "peerDependencies": {
+    "pixi.js": "4.x"
+  }
+}
